@@ -1,0 +1,148 @@
+/*
+Program name: style2.css
+Author: Ranya Taha
+Date created: 03/25/2026
+Date last edited: 3/27/2026
+Version: 1.0
+Description: CSS for Patient registration form for homework #2
+*/
+
+header 
+{
+    width: 100%;
+    background-color: #adc9d7;
+    padding: 20px; /*idk what the padding should be but it looks good to me*/
+}
+body {
+    background-color: #d6e7ef;
+    margin: 0;
+    min-height: 100vh;
+    padding-bottom: 4rem;
+}
+
+form
+{
+    flex-grow: 1; 
+    margin-bottom: 0;  
+}
+
+/* Headings */
+h1, h2 {
+    text-align: center;
+    font-family: Georgia, "Times New Roman", serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+/* Main content */
+main {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+/* Image alignment */
+.image {
+    text-align: left;
+}
+
+/* Table data */
+.td1 {
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+/* Table headers */
+th {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+footer {
+    width: 100%;
+    background-color: #adc9d7;
+    height: 4rem;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+label{
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+input{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;    
+}
+textarea{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;    
+}
+#today {
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pword-message {
+    position: absolute;
+    left: calc(100% + 20px);
+    top: -25px;   /* move UP instead of down */
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: red;
+    width: 250px;
+}
+
+#ShowInput {
+    margin-top: 35px;
+    margin-bottom: 80px; 
+}
+
+
+#review {
+    margin-top: 5px;
+}
+
+table.output,
+tr.output,
+td.output {
+    width: 500px;
+    background-color:#adc9d7;
+    padding: 10px;
+    border-spacing: 2px;
+    border-radius: 20px;
+    color: black;
+}
+td.output {
+    width: 500px;
+    background-color:#adc9d7;
+    padding: 10px;
+    border-spacing: 2px;
+}
+
+.header-title {
+    width: 60%;
+    text-align: center;
+}
+.pword-container {
+    position: relative;
+    display: inline-block;
+}
